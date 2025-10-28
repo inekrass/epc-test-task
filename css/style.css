@@ -16,7 +16,7 @@ body {
 
 body {
     margin: 0;
-    background-image: url(/img/bkg-desk.jpg);
+    background-image: url(../img/bkg-desk.jpg);
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -33,7 +33,7 @@ a {
 
 @font-face {
     font-family: 'Actay';
-    src: url("/fonts/Actay-Regular.otf") format("opentype");
+    src: url("../fonts/Actay-Regular.otf") format("opentype");
     font-weight: 400;
     font-style: normal;
     font-display: block;
@@ -41,7 +41,7 @@ a {
 
 @font-face {
     font-family: 'Actay Wide';
-    src: url("/fonts/ActayWide-Bold.otf") format("opentype");
+    src: url("../fonts/ActayWide-Bold.otf") format("opentype");
     font-weight: 700;
     font-style: normal;
     font-display: block;
@@ -49,7 +49,7 @@ a {
 
 @font-face {
     font-family: 'Inter';
-    src: url("/fonts/InterRegular.otf") format("opentype");
+    src: url("../fonts/InterRegular.otf") format("opentype");
     font-weight: 400;
     font-style: normal;
     font-display: block;
@@ -212,7 +212,7 @@ a {
 .hero__list {
     position: relative;
     height: 470px;
-    background-image: url("/img/road.svg");
+    background-image: url("../img/road.svg");
     background-size: cover;
     background-position: center center;
 }
@@ -238,7 +238,7 @@ a {
     position: absolute;
     top: -27px;
     right: -29px;
-    background-image: url("/img/literal.svg");
+    background-image: url("../img/literal.svg");
     background-size: cover;
 }
 
@@ -355,7 +355,7 @@ a {
     right: -34px;
     content: "";
     position: absolute;
-    background-image: url("/img/literal.svg");
+    background-image: url("../img/literal.svg");
     background-size: cover;
 }
 
@@ -458,7 +458,7 @@ body.modal-open {
     body {
         width: 100%;
         margin: 0;
-        background-image: url(/img/bkg-mob.jpg);
+        background-image: url(../img/bkg-mob.jpg);
         background-size: cover;
         background-position: center center;
         background-repeat: no-repeat;
